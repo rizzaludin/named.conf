@@ -1,1 +1,3 @@
 # named.conf
+
+Konfigurasi DNS server menggunakan BIND9 melibatkan beberapa langkah kunci untuk mengatur layanan DNS pada sistem. File konfigurasi utama adalah `named.conf`, yang mengatur pengaturan global DNS server dan mengacu pada file zone untuk setiap domain yang dikelola. Setiap zona (zone) didefinisikan dalam file `zone` yang berisi informasi otoritatif untuk domain tertentu, termasuk catatan-catatan DNS seperti A (alamat IP), CNAME (canonical name), dan NS (name server). Konfigurasi yang baik memastikan sinkronisasi yang tepat antara `named.conf`, file zona, dan penyesuaian kebutuhan spesifik jaringan atau aplikasi.
